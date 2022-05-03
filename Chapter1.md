@@ -26,7 +26,7 @@ In Scheme:
 
 ## 3. Write a program that tries to test that your composition function respects identity.
 
-If composition respects identity the following should hold:
+If the composition function respects identity, then the following should hold:
 ```
 f . id = id . f = f
 ```
@@ -64,4 +64,24 @@ In Scheme:
 (test-compose (lambda (x) (/ x 2)) (/ 2 3))
 ```
 
+## 4. Is the world-wide web a category in any sense? Are links morphisms?
 
+For it to be a category two things must hold:
+- Every object must have an identity morphism
+- Morphisms must compose
+
+Both conditions are not met for the world-wide web with links as morphisms. Most pages do not contain a link to themselves, and if page A links to B, and page B links to C, this does not mean there is a link from A to C.
+
+Therefore the web with links as morphisms is not a category.
+
+## 5. Is Facebook a category, with people as objects and friendships as morphisms?
+
+Again, both conditions do not hold. There is no identity friendship to oneself, and people are not necessarily friends with their friends' friends so friendships do not compose.
+
+Therefore Facebook with friendships as morphisms is not a category.
+
+## 6. When is a directed graph a category?
+
+For it to be a category two conditions must hold:
+- Identity: Every vertex must have an edge to itself.
+- Composition: If there is an edge from A to B, and from B to C, there must be an edge from A to C.
