@@ -1,0 +1,23 @@
+#lang racket
+(define (memoize f)
+  (let ((d (make-hash)))
+     (lambda (x)
+       (cond [(not (dict-has-key? d x)) (dict-set! d x (f x))])
+       (dict-ref d x))))
+(define f (memoize (lambda (x)
+                     (display "function called with param ")
+                     (displayln x)
+                     (+ x 1))))
+(f 100)
+(f 100)
+(f 3)
+(f 100)
+(f 4)
+(f 100)
+(f 3)
+(f 4)
+
+(define memoized-random (memoize (lambda (max) (random max))))
+(memoized-random 1000)
+(memoized-random 1000)
+

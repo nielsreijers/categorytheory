@@ -1,4 +1,4 @@
-# Chapter 1
+# Chapter 1 - Category: The Essence of Composition
 
 ## 1. Implement, as best as you can, the identity function in your favourite language (or second favourite if your favourite language happens to be Haskell).
 
