@@ -13,3 +13,5 @@
 [Chapter 6 - Simple Algebraic Data Types](Chapter6.md)
 
 [Chapter 7 - Functors](Chapter7.md)
+
+[Chapter 8 - Functoriality](Chapter8.md)
