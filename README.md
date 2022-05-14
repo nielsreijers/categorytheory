@@ -15,3 +15,7 @@
 [Chapter 7 - Functors](Chapter7.md)
 
 [Chapter 8 - Functoriality](Chapter8.md)
+
+Chapter 9 - Function Types: no challenges
+
+[Chapter 10 - Natural Transformations](Chapter10.md)
