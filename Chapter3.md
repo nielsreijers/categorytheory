@@ -2,7 +2,7 @@
 
 ## 1. Generate a free category from:
 ### a. A graph with one node and no edges
-To make  free category, each node should have an identity morphism:
+To make a free category, each node should have an identity morphism:
 
 ![Alt text](https://g.gravizo.com/source/challenge1amark?https%3A%2F%2Fraw.githubusercontent.com%2Fnielsreijers%2Fcategorytheory%2Fmain%2FChapter3.md)
 <details>

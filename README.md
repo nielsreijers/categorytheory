@@ -19,3 +19,7 @@
 Chapter 9 - Function Types: no challenges
 
 [Chapter 10 - Natural Transformations](Chapter10.md)
+
+Chapter 11 - Declarative Programming: no challenges
+
+[Chapter 12 - Limits and Colimits](Chapter12.md)
