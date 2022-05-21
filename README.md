@@ -23,3 +23,5 @@ Chapter 9 - Function Types: no challenges
 Chapter 11 - Declarative Programming: no challenges
 
 [Chapter 12 - Limits and Colimits](Chapter12.md)
+
+[Chapter 13 - Free Monoids (Chapter13.md)
