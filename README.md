@@ -24,4 +24,6 @@ Chapter 11 - Declarative Programming: no challenges
 
 [Chapter 12 - Limits and Colimits](Chapter12.md)
 
-[Chapter 13 - Free Monoids (Chapter13.md)
+[Chapter 13 - Free Monoids](Chapter13.md)
+
+[Chapter 14 - Representable Functors](Chapter14.md)
