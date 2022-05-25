@@ -27,3 +27,5 @@ Chapter 11 - Declarative Programming: no challenges
 [Chapter 13 - Free Monoids](Chapter13.md)
 
 [Chapter 14 - Representable Functors](Chapter14.md)
+
+[Chapter 15 - The Yoneda Lemma](Chapter15.md)
